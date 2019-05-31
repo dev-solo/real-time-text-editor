@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+
+button {
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1;
+}
+
+.text-editor {
+    resize: none;
+    background-image: linear-gradient(white, white 30px, #607D8B 30px, #607D8B 31px, white 31px);
+    background-size: 100% 31px;
+    min-width: 99%;
+    max-width: 99%;
+    min-height: 400px;
+    line-height: 31px;
+    border: 1px solid #607D8B;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Marck Script', cursive;
+    overflow: hidden;
+}
